@@ -1,0 +1,54 @@
+.play {
+  cursor: pointer;
+}
+
+.skip {
+  cursor: pointer;
+}
+
+.shuffle {
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: min(420px, 90%);
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #111111;
+}
+
+.play-pause {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.queue-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.current {
+  font-weight: bold;
+}
+
+.shortcuts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
